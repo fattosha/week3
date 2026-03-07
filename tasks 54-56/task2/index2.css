@@ -1,0 +1,35 @@
+ div {
+     width: 600px;
+     margin: 10px auto;
+     background-color: gainsboro;
+     height: 30px;
+     padding: 10px;
+     position: relative;
+     text-indent: 7px;
+ }
+ 
+ input {
+     caret-color: red;
+ }
+ 
+ #two,
+ #three,
+ #one {
+     color: rgb(0, 0, 0);
+     text-transform: capitalize;
+     width: 100%;
+     height: 100%;
+     background-color: transparent;
+     border-color: transparent;
+     outline: transparent;
+ }
+ 
+ div::after {
+     content: "";
+     width: 620px;
+     height: 2px;
+     background: linear-gradient(to right, rgb(220, 61, 3) 0%, rgb(220, 61, 3)50%, rgb(73, 164, 115) 50%);
+     position: absolute;
+     left: 0%;
+     bottom: 0%;
+ }

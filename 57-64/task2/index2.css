@@ -1,0 +1,35 @@
+header {
+    grid-column: 1/5;
+    background-color: rgb(77, 135, 182);
+}
+
+section {
+    grid-column: 1/4;
+    background-color: rgb(255, 102, 0);
+}
+
+aside {
+    grid-column: 4/5;
+    background-color: rgb(94, 116, 133);
+}
+
+footer {
+    grid-column: 1/5;
+    background-color: rgb(23, 152, 103);
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-transform: capitalize;
+    gap: 0px;
+    text-indent: 5px;
+}
+
+body {
+    margin: 0%;
+}

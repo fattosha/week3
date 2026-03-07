@@ -1,0 +1,101 @@
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0;
+        }
+        
+        body {
+            background: url(photo_4_2026-03-06_09-55-23.jpg);
+        }
+        
+        .container {
+            width: 40%;
+            margin: 30px auto;
+            backdrop-filter: blur(15px);
+            padding-top: 12px;
+            border-radius: 3px;
+        }
+        
+        header {
+            margin: 0 10px;
+            width: 100%;
+        }
+        
+        header div {
+            display: inline-block;
+            width: 43%;
+            margin: 7px;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            border-radius: 3px;
+        }
+        
+        header i {
+            padding: 0 10px;
+        }
+        
+        header .fb {
+            background-color: rgb(51, 51, 171);
+        }
+        
+        header .x {
+            background-color: rgb(112, 198, 227);
+        }
+        
+        .or {
+            background-color: gainsboro;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            margin: 20px auto;
+            text-transform: capitalize;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        footer .flex2,
+        form * {
+            color: rgb(173, 171, 171);
+        }
+        
+        main form #user,
+        main form #password {
+            width: 90%;
+            height: 30px;
+            margin: 5px 5%;
+            padding: 4px 10px;
+            border: 2px solid rgb(173, 171, 171);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        main form .flex {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 25px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        main form #sub {
+            width: 90%;
+            height: 30px;
+            margin: 5px 5%;
+            padding: 4px 10px;
+            text-align: center;
+            background-color: rgb(51, 51, 171);
+            color: white;
+        }
+        
+        footer .flex2 {
+            display: flex;
+            justify-content: center;
+            padding: 10px 25px;
+        }
+        
+        footer .flex2 a {
+            color: rgb(5, 217, 217);
+        }

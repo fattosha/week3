@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+}
+
+:root {
+    --brown: #8a4b2d;
+    --green: #73be1c;
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    color: var(--green);
+    border-bottom: 4px dotted var(--brown);
+}
+
+header h1 {
+    text-shadow: 2px 1px 1px var(--brown);
+    padding: 12px;
+}
+
+p {
+    padding: 5px;
+    font-size: x-small;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--brown);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    margin: 30px auto;
+    border-bottom: 4px dotted var(--brown);
+}
+
+.grid div {
+    counter-increment: counter;
+}
+
+.grid div::before {
+    content: counter(counter)'.';
+    position: absolute;
+    transform: translate(-20px, 10px);
+}
+
+main .grid img {
+    width: 200px;
+    height: 150px;
+}
+
+.grid h2 {
+    font-size: x-small;
+    color: var(--brown);
+}
+
+.grid p {
+    color: var(--green);
+}
+
+footer .container h3 {
+    color: var(--green);
+    font-size: large;
+    font-style: italic;
+}
+
+footer .container h3 p {
+    color: var(--brown);
+}
